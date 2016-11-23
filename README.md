@@ -1,5 +1,5 @@
 # Images to znyp format
-It is mainly used to create images(JPG / PNG) dataset for training, which supports RGB-image and one-channel grey image
+It is mainly used to create images dataset for training, which supports RGB-image and one-channel grey image
 # example
 
 image(JPG / PNG) files:
@@ -32,11 +32,12 @@ depend on python3.5
 # usage 
 
  1. put your images in the class folder
- 2. modify the configuration that matches the images in 'convert_images_to_znyp_format.py'
+ 2. modify the configuration that matches the images in **convert_images_to_znyp_format.py**
  3. run the python script, which will transform you images into znyp format
-    'python convert_images_to_znyp_format.py'
+    ```bash
+    python convert_images_to_znyp_format.py
+    ```
  4. you can also load and visualize the dataset using python script
-    'python load_znyp_format.py'
-
-# znyp format
-This is an images dataset for object recognition, and we will use it in our project [voice_conv_gestures](https://github.com/CoderEugene/voice_conv_gestures)
+    ```bash
+    python load_znyp_format.py
+    ```
