@@ -41,7 +41,7 @@ def _unpickle_dataset(filename, category):
         W = datadict['width']
         C = datadict['channel']
         num_images = datadict['num_images']
-        X = X.reshape(num_images, C, H, W).transpose(0, 2, 3, 1).astype("float")
+        X = X.reshape(num_images, C, H, W).transpose(0, 2, 3, 1).astype("float32")
         Y = np.array(Y)
         print('X_%s: %s' % (category, X.shape))
         print('Y_%s: %s' % (category, Y.shape))
