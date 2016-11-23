@@ -34,10 +34,10 @@ depend on python3.5
  1. put your images in the class folder
  2. modify the configuration that matches the images in **convert_images_to_znyp_format.py**
  3. run the python script, which will transform you images into znyp format
-    ```bash
-    python convert_images_to_znyp_format.py
-    ```
+```bash
+  python convert_images_to_znyp_format.py
+```
  4. you can also load and visualize the dataset using python script
-    ```bash
-    python load_znyp_format.py
-    ```
+```bash
+  python load_znyp_format.py
+```
