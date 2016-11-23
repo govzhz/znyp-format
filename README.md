@@ -37,7 +37,8 @@ depend on python3.5
 ```bash
   python convert_images_to_znyp_format.py
 ```
- 4. you can also load and visualize the dataset using python script
+
+**you can also load and visualize the dataset using python script**
 ```bash
-  python load_znyp_format.py
+     python load_znyp_format.py
 ```
