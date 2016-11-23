@@ -27,7 +27,8 @@ def resize_image(input_path, output_path, input_image_type, output_image_type, w
         # img = Image.open(filename).convert('L')
         # change the image size
         img = img.resize((width, height), Image.ANTIALIAS)
-        outfile = os.path.join(output_path, os.path.split(filename)[1].split('.')[0] + output_image_type)
+        # outfile = os.path.join(output_path, os.path.split(filename)[1].split('.')[0] + output_image_type)
+		outfile = os.path.splitext(filname)[0] + output_image_type
         print(filename + '  -size-> ' + outfile)
         # save image
         img.save(outfile)
